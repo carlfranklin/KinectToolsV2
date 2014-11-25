@@ -1,0 +1,12 @@
+﻿<Window x:Class="SimpleBodySample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="800">
+    <StackPanel>
+        <Image x:Name="BodyImage" Source="{Binding BodyImageSource}" Stretch="None" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock FontSize="30" Text="Sensor: "/>
+            <TextBlock FontSize="30" Text="{Binding SensorStatusName}" />
+        </StackPanel>
+    </StackPanel>
+</Window>

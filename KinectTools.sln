@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectTools", "KinectTools\KinectTools.csproj", "{5A567CA3-83BA-4208-986C-B88D94203C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBodySample", "KinectTools\Samples\SimpleBodySample\SimpleBodySample.csproj", "{2D88090F-4BB2-4CC9-92CD-CC276EE35A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleColorSample", "KinectTools\Samples\SimpleColorSample\SimpleColorSample.csproj", "{633F329C-6901-4780-8C68-58FB2983D3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorAndBodySample", "KinectTools\Samples\ColorAndBodySample\ColorAndBodySample.csproj", "{B7650484-054B-4972-8890-2CEF4B138F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A567CA3-83BA-4208-986C-B88D94203C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A567CA3-83BA-4208-986C-B88D94203C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A567CA3-83BA-4208-986C-B88D94203C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A567CA3-83BA-4208-986C-B88D94203C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D88090F-4BB2-4CC9-92CD-CC276EE35A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D88090F-4BB2-4CC9-92CD-CC276EE35A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D88090F-4BB2-4CC9-92CD-CC276EE35A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D88090F-4BB2-4CC9-92CD-CC276EE35A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633F329C-6901-4780-8C68-58FB2983D3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633F329C-6901-4780-8C68-58FB2983D3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633F329C-6901-4780-8C68-58FB2983D3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633F329C-6901-4780-8C68-58FB2983D3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7650484-054B-4972-8890-2CEF4B138F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7650484-054B-4972-8890-2CEF4B138F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7650484-054B-4972-8890-2CEF4B138F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7650484-054B-4972-8890-2CEF4B138F94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
